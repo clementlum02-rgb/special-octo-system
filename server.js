@@ -43,12 +43,14 @@ async function loadAllCSVs(folderPath) {
   return allStocks
 }
 
+// Cache top stocks
 let topStocksCache = []
 
 app.get('/top-stocks', async (req, res) => {
   try {
     if (topStocksCache.length === 0) {
       topStocksCache = await loadAllCSVs(CSV_FOLDER)
+      console.log(`Loaded ${topStocksCache.length} stocks from CSV`)
     }
     res.json(topStocksCache)
   } catch (err) {
@@ -79,10 +81,11 @@ app.get('/whatif/:symbol', async (req, res) => {
       period1: start,
       period2: end,
     })
+
     if (!history || history.length === 0)
       return res.status(404).json({ error: 'No data available' })
 
-    // Swap start and end if inverted
+    // Ensure ascending order by date
     const orderedHistory = history.sort(
       (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     )
@@ -106,6 +109,6 @@ app.get('/whatif/:symbol', async (req, res) => {
   }
 })
 
-app.listen(PORT, () =>
-  console.log(`Server running on http://localhost:${PORT}`)
-)
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
