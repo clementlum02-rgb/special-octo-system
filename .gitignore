@@ -22,8 +22,5 @@ Thumbs.db
 # VSCode
 .vscode/
 
-# CSV output files (optional if you don't want to track generated CSVs)
-*.csv
-
 # Mac files
 *.swp

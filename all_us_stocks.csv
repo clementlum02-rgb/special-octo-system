@@ -1,0 +1,283 @@
+Symbol,Name
+AAPL,Apple Inc.
+MSFT,Microsoft Corporation
+GOOGL,Alphabet Inc.
+AMZN,Amazon.com, Inc.
+TSLA,Tesla, Inc.
+META,Meta Platforms, Inc.
+NVDA,NVIDIA Corporation
+JPM,JPMorgan Chase & Co.
+V,Visa Inc.
+PG,The Procter & Gamble Company
+MA,Mastercard Incorporated
+UNH,UnitedHealth Group Incorporated
+HD,The Home Depot, Inc.
+DIS,The Walt Disney Company
+PYPL,PayPal Holdings, Inc.
+INTC,Intel Corporation
+CSCO,Cisco Systems, Inc.
+NFLX,Netflix, Inc.
+PEP,PepsiCo, Inc.
+KO,The Coca-Cola Company
+MRK,Merck & Co., Inc.
+ABT,Abbott Laboratories
+T,AT&T Inc.
+NKE,NIKE, Inc.
+WMT,Walmart Inc.
+XOM,Exxon Mobil Corporation
+CVX,Chevron Corporation
+PFE,Pfizer Inc.
+BABA,Alibaba Group Holding Limited
+AMD,Advanced Micro Devices, Inc.
+BA,The Boeing Company
+GS,The Goldman Sachs Group, Inc.
+SPY,SPDR S&P 500 ETF
+QQQ,Invesco QQQ Trust
+IWM,iShares Russell 2000 ETF
+DIA,SPDR Dow Jones Industrial Average ETF Trust
+LMT,Lockheed Martin Corporation
+RTX,RTX Corporation
+TMO,Thermo Fisher Scientific Inc.
+UNP,Union Pacific Corporation
+UPS,United Parcel Service, Inc.
+LOW,Lowe's Companies, Inc.
+CAT,Caterpillar Inc.
+CSX,CSX Corporation
+CVS,CVS Health Corporation
+AMT,American Tower Corporation
+NEE,NextEra Energy, Inc.
+IBM,International Business Machines Corporation
+HON,Honeywell International Inc.
+ADBE,Adobe Inc.
+SBUX,Starbucks Corporation
+GS,The Goldman Sachs Group, Inc.
+BA,The Boeing Company
+SPY,SPDR S&P 500 ETF
+QQQ,Invesco QQQ Trust
+IWM,iShares Russell 2000 ETF
+DIA,SPDR Dow Jones Industrial Average ETF Trust
+LMT,Lockheed Martin Corporation
+RTX,RTX Corporation
+TMO,Thermo Fisher Scientific Inc.
+UNP,Union Pacific Corporation
+UPS,United Parcel Service, Inc.
+LOW,Lowe's Companies, Inc.
+CAT,Caterpillar Inc.
+CSX,CSX Corporation
+CVS,CVS Health Corporation
+AMT,American Tower Corporation
+NEE,NextEra Energy, Inc.
+IBM,International Business Machines Corporation
+HON,Honeywell International Inc.
+ADBE,Adobe Inc.
+PYPL,PayPal Holdings, Inc.
+INTC,Intel Corporation
+CSCO,Cisco Systems, Inc.
+NFLX,Netflix, Inc.
+PEP,PepsiCo, Inc.
+KO,The Coca-Cola Company
+MRK,Merck & Co., Inc.
+ABT,Abbott Laboratories
+T,AT&T Inc.
+NKE,NIKE, Inc.
+WMT,Walmart Inc.
+XOM,Exxon Mobil Corporation
+CVX,Chevron Corporation
+PFE,Pfizer Inc.
+BABA,Alibaba Group Holding Limited
+AMD,Advanced Micro Devices, Inc.
+BA,The Boeing Company
+GS,The Goldman Sachs Group, Inc.
+SPY,SPDR S&P 500 ETF
+QQQ,Invesco QQQ Trust
+IWM,iShares Russell 2000 ETF
+DIA,SPDR Dow Jones Industrial Average ETF Trust
+LMT,Lockheed Martin Corporation
+RTX,RTX Corporation
+TMO,Thermo Fisher Scientific Inc.
+UNP,Union Pacific Corporation
+UPS,United Parcel Service, Inc.
+LOW,Lowe's Companies, Inc.
+CAT,Caterpillar Inc.
+CVX,Chevron Corporation
+XOM,Exxon Mobil Corporation
+PFE,Pfizer Inc.
+MRK,Merck & Co., Inc.
+JNJ,Johnson & Johnson
+ABBV,AbbVie Inc.
+BMY,Bristol-Myers Squibb Company
+LLY,Eli Lilly and Company
+AMGN,Amgen Inc.
+GILD,Gilead Sciences, Inc.
+VRTX,Vertex Pharmaceuticals Incorporated
+REGN,Regeneron Pharmaceuticals, Inc.
+BIIB,Biogen Inc.
+ADI,Analog Devices, Inc.
+TXN,Texas Instruments Incorporated
+QCOM,QUALCOMM Incorporated
+AVGO,Broadcom Inc.
+MCHP,Microchip Technology Incorporated
+NXPI,NXP Semiconductors N.V.
+MU,Micron Technology, Inc.
+AMAT,Applied Materials, Inc.
+KLAC,KLA Corporation
+LRCX,Lam Research Corporation
+SWKS,Skyworks Solutions, Inc.
+MPWR,Monolithic Power Systems, Inc.
+ON,ON Semiconductor Corporation
+CDNS,Cadence Design Systems, Inc.
+SNPS,Synopsys, Inc.
+ANSS,ANSYS, Inc.
+TEAM,Atlassian Corporation
+NOW,ServiceNow, Inc.
+CRM,Salesforce, Inc.
+WDAY,Workday, Inc.
+ADSK,Autodesk, Inc.
+FTNT,Fortinet, Inc.
+PANW,Palo Alto Networks, Inc.
+ZS,Zscaler, Inc.
+CRWD,CrowdStrike Holdings, Inc.
+NET,Cloudflare, Inc.
+DDOG,Datadog, Inc.
+DOCU,DocuSign, Inc.
+MDB,MongoDB, Inc.
+OKTA,Okta, Inc.
+TEAM,Atlassian Corporation
+FIVN,Five9, Inc.
+TWLO,Twilio Inc.
+PLTR,Palantir Technologies Inc.
+ROKU,Roku, Inc.
+PYPL,PayPal Holdings, Inc.
+NFLX,Netflix, Inc.
+DIS,The Walt Disney Company
+CMCSA,Comcast Corporation
+T,AT&T Inc.
+VZ,Verizon Communications Inc.
+TMUS,T-Mobile US, Inc.
+CHTR,Charter Communications, Inc.
+FOXA,Fox Corporation
+FOX,Fox Corporation
+SIRI,Sirius XM Holdings Inc.
+EA,Electronic Arts Inc.
+TTWO,Take-Two Interactive Software, Inc.
+UBER,Uber Technologies, Inc.
+LYFT,Lyft, Inc.
+ZM,Zoom Communications Inc.
+SNOW,Snowflake Inc.
+ABNB,Airbnb, Inc.
+BABA,Alibaba Group Holding Limited
+JD,JD.com, Inc.
+PDD,PDD Holdings Inc.
+BIDU,Baidu, Inc.
+TCEHY,Tencent Holdings Limited
+NVCR,NovoCure Limited
+MRNA,Moderna, Inc.
+BNTX,BioNTech SE
+CRSP,CRISPR Therapeutics AG
+EDIT,Editas Medicine, Inc.
+BEAM,Beam Therapeutics Inc.
+IONS,Ionis Pharmaceuticals, Inc.
+ACAD,ACADIA Pharmaceuticals Inc.
+ALNY,Alnylam Pharmaceuticals, Inc.
+MGNI,Magnite, Inc.
+PUBM,PubMatic, Inc.
+APPS,Digital Turbine, Inc.
+FSLY,Fastly, Inc.
+NET,Cloudflare, Inc.
+DDOG,Datadog, Inc.
+HUBS,HubSpot, Inc.
+TWLO,Twilio Inc.
+CRWD,CrowdStrike Holdings, Inc.
+OKTA,Okta, Inc.
+DOCU,DocuSign, Inc.
+PYPL,PayPal Holdings, Inc.
+MA,Mastercard Incorporated
+V,Visa Inc.
+AXP,American Express Company
+COF,Capital One Financial Corporation
+BAC,Bank of America Corporation
+C,Citigroup Inc.
+JPM,JPMorgan Chase & Co.
+WFC,Wells Fargo & Company
+GS,The Goldman Sachs Group, Inc.
+MS,Morgan Stanley
+SCHW,The Charles Schwab Corporation
+ETSY,Etsy, Inc.
+ROST,Ross Stores, Inc.
+TGT,Target Corporation
+WMT,Walmart Inc.
+COST,Costco Wholesale Corporation
+HD,The Home Depot, Inc.
+LOW,Lowe's Companies, Inc.
+KO,The Coca-Cola Company
+PEP,PepsiCo, Inc.
+MDLZ,Mondelez International, Inc.
+MCD,McDonald's Corporation
+SBUX,Starbucks Corporation
+YUM,Yum! Brands, Inc.
+CMG,Chipotle Mexican Grill, Inc.
+WEN,The Wendy's Company
+DPZ,Domino's Pizza, Inc.
+NKE,NIKE, Inc.
+ADDYY,adidas AG
+LULU,lululemon athletica inc.
+PUMA,PUMA
+VFC,V.F. Corporation
+UA,Under Armour, Inc.
+UAA,Under Armour, Inc.
+F,Ford Motor Company
+GM,General Motors Company
+TSLA,Tesla, Inc.
+HMC,Honda Motor Co., Ltd.
+TM,Toyota Motor Corporation
+VLKAF,Volkswagen AG
+RIVN,Rivian Automotive, Inc.
+LCID,Lucid Group, Inc.
+NIO,NIO Inc.
+XPEV,XPeng Inc.
+LI,Li Auto Inc.
+FSLR,First Solar, Inc.
+ENPH,Enphase Energy, Inc.
+SEDG,SolarEdge Technologies, Inc.
+RUN,Sunrun Inc.
+CSIQ,Canadian Solar Inc.
+PLUG,Plug Power Inc.
+BLDP,Ballard Power Systems Inc.
+BE,Bloom Energy Corporation
+FCEL,FuelCell Energy, Inc.
+NEE,NextEra Energy, Inc.
+DUK,Duke Energy Corporation
+SO,The Southern Company
+AEP,American Electric Power Company, Inc.
+EXC,Exelon Corporation
+ED,Consolidated Edison, Inc.
+XEL,Xcel Energy Inc.
+PEG,Public Service Enterprise Group Incorporated
+EIX,Edison International
+D,Dominion Energy, Inc.
+PCG,PG&E Corporation
+CNP,CenterPoint Energy, Inc.
+ES,Eversource Energy
+NRG,NRG Energy, Inc.
+AES,The AES Corporation
+IDR,Idaho Strategic Resources, Inc.
+PPL,PPL Corporation
+SRE,Sempra
+ATO,Atmos Energy Corporation
+WEC,WEC Energy Group, Inc.
+CMS,CMS Energy Corporation
+ETR,Entergy Corporation
+NI,NiSource Inc.
+FE,FirstEnergy Corp.
+GXP,GXP
+EQT,EQT Corporation
+OKE,ONEOK, Inc.
+WMB,The Williams Companies, Inc.
+KMI,Kinder Morgan, Inc.
+ET,Energy Transfer LP
+COP,ConocoPhillips
+OXY,Occidental Petroleum Corporation
+CVX,Chevron Corporation
+XOM,Exxon Mobil Corporation
+BP,BP p.l.c.
+RDS.A,RDS.A
