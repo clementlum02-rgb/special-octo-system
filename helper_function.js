@@ -1,6 +1,7 @@
 import fs from 'fs'
 import csv from 'csv-parser'
 import { parse } from 'json2csv'
+import csv from './assets/csv/all_stocks_sorted.csv'
 
 const inputFile = './all_us_stocks.csv' // your existing CSV
 const outputFile = './all_stocks_sorted.csv'

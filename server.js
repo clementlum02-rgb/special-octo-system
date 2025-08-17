@@ -10,37 +10,29 @@ dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 4000
-const CSV_FOLDER = process.env.CSV_FOLDER || './assets/csv'
+const CSV_FILE = path.join(
+  process.cwd(),
+  process.env.CSV_FILE || './assets/csv/all_stocks_sorted.csv'
+)
 
 app.use(cors())
 app.use(express.json())
 
-// Load all CSVs from folder
-async function loadAllCSVs(folderPath) {
-  const files = fs.readdirSync(folderPath).filter((f) => f.endsWith('.csv'))
-  const allStocks = []
-
-  for (const file of files) {
-    const filePath = path.join(folderPath, file)
-    await new Promise((resolve, reject) => {
-      fs.createReadStream(filePath)
-        .pipe(csv())
-        .on('data', (row) => {
-          const symbol = (row.Symbol || row.Ticker || '').trim()
-          const name = (
-            row['Security Name'] ||
-            row.Name ||
-            row.Company ||
-            ''
-          ).trim()
-          if (symbol && name) allStocks.push({ symbol, name })
-        })
-        .on('end', resolve)
-        .on('error', reject)
-    })
-  }
-
-  return allStocks
+// Load the CSV
+async function loadCSV(filePath) {
+  const stocks = []
+  await new Promise((resolve, reject) => {
+    fs.createReadStream(filePath)
+      .pipe(csv())
+      .on('data', (row) => {
+        const symbol = (row.symbol || row.Symbol || '').trim()
+        const name = (row.name || row.Name || '').trim()
+        if (symbol && name) stocks.push({ symbol, name })
+      })
+      .on('end', resolve)
+      .on('error', reject)
+  })
+  return stocks
 }
 
 // Cache top stocks
@@ -49,7 +41,7 @@ let topStocksCache = []
 app.get('/top-stocks', async (req, res) => {
   try {
     if (topStocksCache.length === 0) {
-      topStocksCache = await loadAllCSVs(CSV_FOLDER)
+      topStocksCache = await loadCSV(CSV_FILE)
       console.log(`Loaded ${topStocksCache.length} stocks from CSV`)
     }
     res.json(topStocksCache)
@@ -109,6 +101,4 @@ app.get('/whatif/:symbol', async (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
